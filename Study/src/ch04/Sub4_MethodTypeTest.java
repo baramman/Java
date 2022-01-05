@@ -1,5 +1,9 @@
 package ch04;
-
+/*
+ * 날짜 : 2022/01/04
+ * 이름 : 양성민
+ * 내용 : 자바 메서드 타입 실습하기 교재 p155
+ */
 public class Sub4_MethodTypeTest {
 	
 	// main 메서드 : 자바 프로그램의 실행함수(최초 진입점)

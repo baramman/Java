@@ -38,13 +38,5 @@ public class Sub1_ArrayTest {
 			System.out.println("city : "+city);
 		}
 		
-		// 문자열 배열
-		
-		
-		
-		
-		
-		
-		
 	}
 }
