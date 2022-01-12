@@ -1,0 +1,16 @@
+package test4;
+/*
+ * 날짜 : 2022/01/12
+ * 이름 : 양성민
+ * 내용 : String, Wrapper 클래스 연습문제
+ */
+public class Ex05 {
+	public static void main(String[] args) {
+		
+		String strCsv = "60,72,82,86,92";
+		String[] scores = strCsv.split(",");
+		
+		int total = 0;
+	}
+
+}
