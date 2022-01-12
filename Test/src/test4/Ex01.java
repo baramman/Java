@@ -17,7 +17,7 @@ public class Ex01 {
 		
 		do {
 			count++;
-			System.out.println("-------------");
+			System.out.println("------------------");
 			System.out.println("answer의 값을 맞춰보세요.");
 			System.out.print("1 ~ 10 사이의 값을 입력 : ");
 			
@@ -30,10 +30,10 @@ public class Ex01 {
 				}				
 			} catch (InputMismatchException e) {
 				System.out.println("숫자가 아닙니다. 숫자를 입력하세요.");
-				
+				continue;
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
-				
+				continue;
 			}
 			
 			if (answer > input) {

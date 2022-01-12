@@ -11,6 +11,12 @@ public class Ex05 {
 		String[] scores = strCsv.split(",");
 		
 		int total = 0;
+		
+		for (int i = 0; i < scores.length; i++) {
+			total += Integer.parseInt(scores[i]);
+		}
+		
+		System.out.println("รัมก : "+total);
 	}
 
 }
